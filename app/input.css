@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+@source "../components/**/*.tsx";
+@source "../app/**/*.tsx";
+
+:root {
+  --background: #030712;
+  --foreground: #f3f4f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbar for horizontal service cards */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Custom glow utility */
+.glow-blue {
+  text-shadow: 0 0 15px rgba(0, 153, 255, 0.6), 0 0 30px rgba(0, 153, 255, 0.3);
+}
+
+.box-glow-blue {
+  box-shadow: 0 0 25px -5px rgba(0, 136, 255, 0.5), 0 0 10px rgba(0, 180, 255, 0.3);
+}
+
+.box-glow-card {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.8), 0 0 15px -3px rgba(0, 153, 255, 0.25);
+}
+
+.box-glow-card:hover {
+  box-shadow: 0 8px 30px -2px rgba(0, 0, 0, 0.9), 0 0 20px 2px rgba(0, 180, 255, 0.5);
+}
+
+/* Linear Automatic Light Sweep Animations (Left to Right, Right to Left) */
+@keyframes laser-sweep-x {
+  0% {
+    transform: translateX(-150%);
+  }
+  50% {
+    transform: translateX(350%);
+  }
+  100% {
+    transform: translateX(-150%);
+  }
+}
+
+@keyframes light-pingpong {
+  0% {
+    left: -30%;
+  }
+  50% {
+    left: 110%;
+  }
+  100% {
+    left: -30%;
+  }
+}
+
+@keyframes card-light-sheen {
+  0% {
+    transform: translateX(-200%) skewX(-25deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.85;
+  }
+  45% {
+    transform: translateX(300%) skewX(-25deg);
+    opacity: 0.85;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200%) skewX(-25deg);
+    opacity: 0;
+  }
+}
+
+@keyframes neon-pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 12px rgba(0, 200, 255, 0.25), inset 0 0 10px rgba(0, 200, 255, 0.1);
+    border-color: rgba(56, 189, 248, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(0, 200, 255, 0.65), inset 0 0 15px rgba(0, 200, 255, 0.25);
+    border-color: rgba(56, 189, 248, 0.9);
+  }
+}
+
+.animate-laser {
+  animation: laser-sweep-x 4s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-laser-fast {
+  animation: laser-sweep-x 2.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-light-sheen {
+  animation: card-light-sheen 4s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.animate-neon-pulse {
+  animation: neon-pulse-glow 3s ease-in-out infinite;
+  will-change: box-shadow, border-color;
+}
+
