@@ -63,13 +63,6 @@ export default function Header() {
                 <div className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/[0.08] border border-sky-400/30 text-white shadow-[0_0_12px_rgba(0,180,255,0.15)] whitespace-nowrap text-xs">
                   <Phone className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
                   <a
-                    href="tel:+19164578701"
-                    className="hover:text-[#00c8ff] transition-colors font-bold tracking-tight"
-                  >
-                    (916) 457-8701
-                  </a>
-                  <span className="text-gray-500">|</span>
-                  <a
                     href="tel:9169558735"
                     className="hover:text-[#00c8ff] transition-colors font-bold tracking-tight"
                   >
@@ -79,17 +72,17 @@ export default function Header() {
 
                 {/* Email Capsule */}
                 <a
-                  href="mailto:bri850i@yahoo.com"
+                  href="mailto:btechbmwservice@gmail.com"
                   className="hidden md:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08] hover:border-sky-400/40 text-gray-200 hover:text-white transition-all whitespace-nowrap shadow-sm text-xs"
                 >
                   <Mail className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
-                  <span>bri850i@yahoo.com</span>
+                  <span>btechbmwservice@gmail.com</span>
                 </a>
 
                 {/* Hours Capsule */}
                 <div className="hidden xl:flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/[0.04] border border-white/[0.08] text-gray-300 whitespace-nowrap shadow-sm text-xs">
                   <Clock className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
-                  <span>Mon – Fri: 8:00 AM – 5:00 PM</span>
+                  <span>Mon – Fri: 6:00 AM – 1:00 PM (By Appointment Only)</span>
                 </div>
               </div>
 
@@ -194,7 +187,6 @@ export default function Header() {
                           "BMW Sedans (3, 5, 7 Series)",
                           "BMW Coupes & Gran Coupes",
                           "Classic BMWs (2002, E30, E36, E46)",
-                          "BMW i Series (Electric / Hybrid)",
                         ].map((model) => (
                           <Link
                             key={model}
@@ -347,23 +339,19 @@ export default function Header() {
                 </div>
                 <div className="flex items-center gap-2">
                   <Phone className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
-                  <a href="tel:+19164578701" className="text-gray-100 hover:text-[#00c8ff]">
-                    (916) 457-8701
-                  </a>
-                  <span className="text-gray-500">/</span>
                   <a href="tel:9169558735" className="text-gray-100 hover:text-[#00c8ff]">
                     (916) 955-8735
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
-                  <a href="mailto:bri850i@yahoo.com" className="text-gray-100 hover:text-[#00c8ff]">
-                    bri850i@yahoo.com
+                  <a href="mailto:btechbmwservice@gmail.com" className="text-gray-100 hover:text-[#00c8ff]">
+                    btechbmwservice@gmail.com
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Clock className="w-3.5 h-3.5 text-[#00c8ff] shrink-0" />
-                  <span>Mon – Fri: 8:00 AM – 5:00 PM</span>
+                  <span>6:00 AM – 1:00 PM Mon – Fri (By Appointment Only)</span>
                 </div>
               </div>
             </div>

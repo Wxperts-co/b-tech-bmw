@@ -58,15 +58,6 @@ const bmwModels: BmwModelCard[] = [
       "Specialized mechanical restoration, VANOS rebuilds, manual transmission overhauls, and OEM sourcing.",
     accent: "from-[#E30613] to-[#b8040f]",
   },
-  {
-    id: "electric",
-    series: "ELECTRIFIED BMW",
-    title: "BMW i & Hybrid",
-    models: "i3 • i4 • i5 • i7 • iX • 330e • 530e • X5 45e",
-    description:
-      "High-voltage thermal cooling, regenerative brake service, suspension, and advanced software diagnostics.",
-    accent: "from-[#0072CE] to-[#00c8ff]",
-  },
 ];
 
 export default function BmwModelsSection() {
@@ -98,7 +89,7 @@ export default function BmwModelsSection() {
           </h2>
 
           <p className="mt-3 max-w-2xl text-xs sm:text-sm md:text-base font-medium text-slate-600 leading-relaxed">
-            From vintage BMW 2002 classics to the newest M, X, and electrified i
+            From vintage 1974 BMW 2002 classics to modern M, X, and gas-powered
             Series vehicles, our Sacramento shop has the specialized tools and
             diagnostics for your BMW.
           </p>
@@ -106,12 +97,12 @@ export default function BmwModelsSection() {
           <div className="w-20 h-[3.5px] bg-[#E30613] mt-4 rounded-full" />
         </div>
 
-        {/* 6 BMW Model Cards Grid (3 Columns on Desktop) */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        {/* 5 BMW Model Cards (Centered Flex Grid: 3 on top, 2 centered below) */}
+        <div className="flex flex-wrap justify-center gap-5 sm:gap-6">
           {bmwModels.map((item) => (
             <div
               key={item.id}
-              className="group relative flex flex-col justify-between rounded-2xl bg-slate-50/70 hover:bg-white border border-slate-200 hover:border-[#0072CE]/50 p-5 sm:p-6 shadow-[0_6px_20px_rgba(13,34,64,0.05)] hover:shadow-[0_14px_34px_rgba(0,114,206,0.14)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
+              className="group relative w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] flex flex-col justify-between rounded-2xl bg-slate-50/70 hover:bg-white border border-slate-200 hover:border-[#0072CE]/50 p-5 sm:p-6 shadow-[0_6px_20px_rgba(13,34,64,0.05)] hover:shadow-[0_14px_34px_rgba(0,114,206,0.14)] hover:-translate-y-1 transition-all duration-300 overflow-hidden"
             >
               {/* Top Gradient Accent Bar */}
               <div
@@ -164,7 +155,7 @@ export default function BmwModelsSection() {
           </span>
           <span className="inline-flex items-center gap-2">
             <Sparkles className="w-4 h-4 text-[#E30613]" />
-            25+ Years Sacramento BMW Care
+            30+ Years Sacramento BMW Care • California BAR Certified
           </span>
           <span className="inline-flex items-center gap-2">
             <CheckCircle2 className="w-4 h-4 text-[#0072CE]" />

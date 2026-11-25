@@ -43,9 +43,9 @@ export default function AboutSection() {
               </div>
             </div>
 
-            {/* Main Headline: 25 Years of BMW Expertise! */}
+            {/* Main Headline: 30 Years of BMW Expertise! */}
             <h2 className="text-3xl sm:text-4xl md:text-5xl xl:text-[54px] font-black italic tracking-tight leading-[1.05] text-[#0d2240]">
-              25 Years of
+              30 Years of
               <br />
               <span className="text-[#0b4da2]">BMW Expertise!</span>
             </h2>
@@ -55,23 +55,23 @@ export default function AboutSection() {
 
             {/* Sub-headline with Skewed Red "YOUR BMW" Pill */}
             <p className="text-base sm:text-lg xl:text-[20px] font-bold italic text-[#0d2240] leading-snug mt-4 sm:mt-5">
-              Great Service, Great Value, and Friendly Staff make
+              California BAR Certified • Serving Sacramento,
               <br className="hidden sm:block" />{" "}
-              <span className="font-black text-[#0d2240]">B Tech</span>{" "}
+              <span className="font-black text-[#0d2240]">Bay Area, AZ &amp; OR</span>{" "}
               <span className="inline-block -skew-x-12 bg-gradient-to-r from-[#d90416] to-[#e30613] text-white font-black italic px-3 py-0.5 rounded-md text-sm sm:text-base xl:text-[18px] mx-1 shadow-sm">
                 <span className="inline-block skew-x-12">YOUR BMW</span>
               </span>{" "}
-              <span className="font-bold text-[#0d2240]">repair shop.</span>
+              <span className="font-bold text-[#0d2240]">specialists.</span>
             </p>
 
             {/* Paragraph Description with Left Blue Accent Bar */}
             <div className="border-l-[3px] border-[#0070c9] pl-3.5 sm:pl-4 mt-4 sm:mt-5 py-0.5">
-              <p className="text-[#1e293b] text-sm sm:text-[15px] font-medium leading-relaxed max-w-[490px]">
-                At B Tech BMW Service, we&apos;re passionate about BMWs and committed
-                to keeping them performing at their best. With over 25 years of
-                hands-on experience, our skilled technicians provide
-                dealership-level service, personalized care, and reliable
-                repairs at a great value.
+              <p className="text-[#1e293b] text-sm sm:text-[15px] font-medium leading-relaxed max-w-[510px]">
+                Starting 30 years ago at a BMW recycler, Brian Ingram was hired
+                by this shop to restore a 1974 BMW 2002—and has been working
+                here ever since, taking over ownership in April 2026. Certified
+                by the California BAR, drivers travel from the Bay Area,
+                Arizona, and Oregon for his trusted BMW care.
               </p>
             </div>
           </div>
@@ -114,12 +114,12 @@ export default function AboutSection() {
                     <path d="M13 28.5C16 29.8 20 29.8 23 28.5" />
                   </svg>
                   <span className="absolute inset-0 flex items-center justify-center text-[11px] sm:text-xs font-black tracking-tighter text-white pb-1">
-                    25+
+                    30+
                   </span>
                 </div>
               </div>
               <div className="text-xs sm:text-sm md:text-base font-extrabold italic text-[#0d2240] leading-tight">
-                25+ Years of
+                30+ Years of
                 <br />
                 BMW Experience
               </div>

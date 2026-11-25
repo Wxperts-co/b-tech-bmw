@@ -282,7 +282,7 @@ export default function HeroSection() {
       {/* 5 Trust Pillars / Stats Badges Bar - Hidden on Mobile View, Visible on sm+ */}
       <div className="hidden sm:block relative z-10 w-full max-w-[1920px] mx-auto px-3 sm:px-8 md:px-12 lg:px-16 xl:px-[80px] pb-2 sm:pb-3">
         <div className="pt-2 sm:pt-4 border-t border-white/10 flex overflow-x-auto no-scrollbar sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 lg:gap-8 items-center">
-          {/* Badge 1: 25+ Years */}
+          {/* Badge 1: 30+ Years */}
           <div className="shrink-0 flex items-center gap-2.5 sm:gap-3.5">
             <div className="relative w-10 h-10 sm:w-12 sm:h-12 shrink-0 flex items-center justify-center">
               <svg className="w-10 h-10 sm:w-12 sm:h-12 text-[#00c8ff] drop-shadow-[0_0_12px_rgba(0,200,255,0.8)]" viewBox="0 0 48 48" fill="none">
@@ -291,7 +291,7 @@ export default function HeroSection() {
                 <path d="M36 28C38 20 32 12 24 10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
               </svg>
               <span className="absolute inset-0 flex items-center justify-center text-[#00c8ff] font-black text-xs sm:text-sm tracking-tighter drop-shadow-[0_0_8px_#00c8ff]">
-                25+
+                30+
               </span>
             </div>
             <div className="text-[11px] sm:text-xs md:text-sm font-medium text-gray-200 leading-snug whitespace-nowrap sm:whitespace-normal">

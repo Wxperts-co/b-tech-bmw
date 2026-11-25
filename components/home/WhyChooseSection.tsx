@@ -13,7 +13,7 @@ interface WhyChooseItem {
 const whyChooseItems: WhyChooseItem[] = [
   {
     id: "expertise",
-    line1: "25+ Years of",
+    line1: "30+ Years of",
     line2: "BMW Expertise",
     icon: (
       <div className="relative flex items-center justify-center">
@@ -32,7 +32,7 @@ const whyChooseItems: WhyChooseItem[] = [
           <path d="M13 28.5C16 29.8 20 29.8 23 28.5" />
         </svg>
         <span className="absolute inset-0 flex items-center justify-center text-[11px] sm:text-xs font-black tracking-tighter text-white pb-1">
-          25+
+          30+
         </span>
       </div>
     ),
@@ -187,9 +187,9 @@ export default function WhyChooseSection() {
 
           {/* Subtitle */}
           <p className="mt-3 sm:mt-4 max-w-2xl text-xs sm:text-sm md:text-base font-semibold text-[#1e293b] leading-relaxed">
-            When it comes to BMW care, we go beyond basic repairs. Our
-            specialized expertise, advanced technology, and commitment to quality
-            ensure your BMW performs at its best.
+            California BAR Certified BMW specialists trusted by enthusiasts
+            traveling from Sacramento, the Bay Area, Arizona, and Oregon—from
+            classic 1974 BMW 2002 restorations to modern M Series care.
           </p>
 
           {/* Red Horizontal Accent Bar */}

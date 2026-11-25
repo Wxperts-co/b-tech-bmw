@@ -74,11 +74,11 @@ export default function Footer() {
             </a>
 
             <a
-              href="tel:+19164578701"
+              href="tel:9169558735"
               className="inline-flex items-center gap-2 px-4 sm:px-5 py-2.5 sm:py-3 rounded-xl bg-black/35 hover:bg-black/55 border border-white/30 text-white font-bold text-xs sm:text-sm transition-all"
             >
               <Phone className="w-4 h-4 text-white" />
-              <span>(916) 457-8701</span>
+              <span>(916) 955-8735</span>
             </a>
           </div>
         </div>
@@ -131,8 +131,9 @@ export default function Footer() {
               
 
               <p className="mt-4 text-xs sm:text-[13px] text-gray-200 leading-relaxed max-w-xs drop-shadow">
-                Specialized BMW service, repair and maintenance with expert care,
-                advanced diagnostics, and genuine-quality parts.
+                30+ years of specialized BMW care. California BAR Certified
+                shop trusted by clients from Sacramento, the Bay Area, Arizona,
+                and Oregon.
               </p>
             </div>
 
@@ -209,16 +210,12 @@ export default function Footer() {
                     </p>
                   </div>
 
-                  {/* 2. Phone Numbers (Same format as Header) */}
+                  {/* 2. Phone Number (Single active number) */}
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 shrink-0 rounded-full bg-sky-950/70 border border-[#00c8ff]/60 flex items-center justify-center shadow-[0_0_12px_rgba(0,200,255,0.25)]">
                       <Phone className="w-4 h-4 text-[#00c8ff]" />
                     </div>
                     <div className="flex flex-wrap items-center gap-1.5 font-bold text-white leading-snug drop-shadow-sm">
-                      <a href="tel:+19164578701" className="hover:text-[#00c8ff] transition-colors">
-                        (916) 457-8701
-                      </a>
-                      <span className="text-gray-400">|</span>
                       <a href="tel:9169558735" className="hover:text-[#00c8ff] transition-colors">
                         (916) 955-8735
                       </a>
@@ -231,11 +228,24 @@ export default function Footer() {
                       <Mail className="w-4 h-4 text-[#00c8ff]" />
                     </div>
                     <a
-                      href="mailto:bri850i@yahoo.com"
+                      href="mailto:btechbmwservice@gmail.com"
                       className="font-semibold text-white hover:text-[#00c8ff] transition-colors drop-shadow-sm"
                     >
-                      bri850i@yahoo.com
+                      btechbmwservice@gmail.com
                     </a>
+                  </div>
+
+                  {/* 4. Working Hours */}
+                  <div className="flex items-start gap-3">
+                    <div className="w-9 h-9 shrink-0 rounded-full bg-sky-950/70 border border-[#00c8ff]/60 flex items-center justify-center shadow-[0_0_12px_rgba(0,200,255,0.25)] text-[#00c8ff] font-black text-[10px]">
+                      HRS
+                    </div>
+                    <div className="text-white leading-snug drop-shadow-sm">
+                      <p className="font-bold">6:00 AM – 1:00 PM (Mon – Fri)</p>
+                      <p className="text-[11px] font-bold text-[#00c8ff] uppercase tracking-wider">
+                        By Appointment Only
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
