@@ -1,10 +1,12 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { ArrowRight, CheckCircle2, Gauge, ShieldCheck, Sparkles } from "lucide-react";
 
 interface BmwModelCard {
   id: string;
+  slug: string;
   series: string;
   title: string;
   models: string;
@@ -15,6 +17,7 @@ interface BmwModelCard {
 const bmwModels: BmwModelCard[] = [
   {
     id: "m-series",
+    slug: "bmw-m-series",
     series: "M PERFORMANCE",
     title: "BMW M Series",
     models: "M2 • M3 • M4 • M5 • M8 • X5 M • X6 M",
@@ -24,6 +27,7 @@ const bmwModels: BmwModelCard[] = [
   },
   {
     id: "x-series",
+    slug: "bmw-x-series",
     series: "SAV & CROSSOVER",
     title: "BMW X Series",
     models: "X1 • X2 • X3 • X4 • X5 • X6 • X7 • XM",
@@ -33,6 +37,7 @@ const bmwModels: BmwModelCard[] = [
   },
   {
     id: "sedans",
+    slug: "bmw-sedans",
     series: "EXECUTIVE SEDANS",
     title: "3, 5 & 7 Series",
     models: "320i • 330i • 340i • 530i • 540i • 740i • 750i",
@@ -42,6 +47,7 @@ const bmwModels: BmwModelCard[] = [
   },
   {
     id: "coupes",
+    slug: "bmw-coupes-gran-coupes",
     series: "COUPES & ROADSTERS",
     title: "2, 4, 8 & Z Series",
     models: "230i • M240i • 430i • 440i • 840i • Z3 • Z4",
@@ -51,6 +57,7 @@ const bmwModels: BmwModelCard[] = [
   },
   {
     id: "classics",
+    slug: "classic-bmws",
     series: "HERITAGE & VINTAGE",
     title: "Classic BMWs",
     models: "BMW 2002 • E30 • E36 • E46 • E39 • E60",
@@ -135,13 +142,13 @@ export default function BmwModelsSection() {
                   <CheckCircle2 className="w-4 h-4 text-[#0072CE]" />
                   OEM Parts &amp; Diagnostics
                 </span>
-                <a
-                  href="#schedule"
+                <Link
+                  href={`/models/${item.slug}`}
                   className="inline-flex items-center gap-1 text-[#0050c8] hover:text-[#E30613] transition-colors"
                 >
-                  <span>Book Service</span>
+                  <span>View Details</span>
                   <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                </a>
+                </Link>
               </div>
             </div>
           ))}

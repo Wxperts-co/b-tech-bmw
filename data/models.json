@@ -1,0 +1,92 @@
+[
+  {
+    "slug": "bmw-m-series",
+    "title": "BMW M Series",
+    "shortModels": "(M2, M3, M4, M5, M8)",
+    "badge": "M",
+    "image": "/images/models/bmw-m-series.jpg",
+    "heroTitle": "BMW M Series Service",
+    "heroDescription": "Specialized care, performance diagnostics, and precision repairs for BMW M2, M3, M4, M5, and M8 models.",
+    "spotlightDescription": "High-performance BMW M models demand specialized expertise. We provide precision diagnostics, performance maintenance, and repairs to keep your M Series delivering the power, handling, and driving experience it's built for.",
+    "highlights": [
+      { "iconKey": "diagnostics", "label": "Performance Diagnostics" },
+      { "iconKey": "brake", "label": "Brake & Suspension Service" },
+      { "iconKey": "engine", "label": "Engine & Turbo Service" },
+      { "iconKey": "gauge", "label": "M-Specific Calibration & Resets" },
+      { "iconKey": "transmission", "label": "Transmission & Drivetrain" },
+      { "iconKey": "shield", "label": "Routine & Preventive Maintenance" }
+    ]
+  },
+  {
+    "slug": "bmw-x-series",
+    "title": "BMW X Series",
+    "shortModels": "(X1 - X7, XM)",
+    "badge": "X",
+    "image": "/images/models/bmw-x-series.jpg",
+    "heroTitle": "BMW X Series Service",
+    "heroDescription": "Complete xDrive AWD, suspension, cooling, and scheduled maintenance for BMW X1 through X7 SUVs.",
+    "spotlightDescription": "BMW X Series SAVs combine luxury comfort with all-wheel-drive capability. Our Sacramento specialists handle xDrive transfer case service, air suspension repair, cooling systems, and heavy-duty brake maintenance.",
+    "highlights": [
+      { "iconKey": "transmission", "label": "xDrive & Transfer Case Service" },
+      { "iconKey": "brake", "label": "Heavy-Duty Brake Replacement" },
+      { "iconKey": "engine", "label": "Turbo & Cooling System Care" },
+      { "iconKey": "gauge", "label": "Air Suspension & Alignment" },
+      { "iconKey": "diagnostics", "label": "Full-Module Diagnostics" },
+      { "iconKey": "shield", "label": "Factory Scheduled Maintenance" }
+    ]
+  },
+  {
+    "slug": "bmw-sedans",
+    "title": "BMW Sedans",
+    "shortModels": "(3, 5, 7 Series)",
+    "badge": "sedan",
+    "image": "/images/models/bmw-sedans.jpg",
+    "heroTitle": "BMW 3, 5 & 7 Series Service",
+    "heroDescription": "Dealer-level maintenance, engine care, and electronics diagnostics for BMW 3, 5, and 7 Series sedans.",
+    "spotlightDescription": "From nimble 3 Series daily drivers to flagship 7 Series executive sedans, we provide factory-level oil service, gasket and timing repairs, suspension restoration, and module diagnostics to keep your sedan refined and reliable.",
+    "highlights": [
+      { "iconKey": "engine", "label": "Oil Leaks & Gasket Repairs" },
+      { "iconKey": "diagnostics", "label": "Check Engine & Module Scans" },
+      { "iconKey": "brake", "label": "Brake Pads, Rotors & Fluid" },
+      { "iconKey": "gauge", "label": "Control Arm & Strut Service" },
+      { "iconKey": "transmission", "label": "Transmission Fluid & Filter" },
+      { "iconKey": "shield", "label": "Condition-Based Maintenance" }
+    ]
+  },
+  {
+    "slug": "bmw-coupes-gran-coupes",
+    "title": "BMW Coupes & Gran Coupes",
+    "shortModels": "(2, 4, 8 & Z Series)",
+    "badge": "coupe",
+    "image": "/images/models/bmw-coupes.jpg",
+    "heroTitle": "BMW Coupes & Gran Coupes Service",
+    "heroDescription": "Precision chassis, drivetrain, and performance maintenance for 2, 4, 8, and Z Series BMWs.",
+    "spotlightDescription": "Designed for spirited driving and sleek grand touring, BMW Coupes and Gran Coupes rely on razor-sharp steering, tight suspension geometry, and responsive powertrains—all serviced with OEM-quality parts in our shop.",
+    "highlights": [
+      { "iconKey": "gauge", "label": "Precision Chassis & Steering" },
+      { "iconKey": "engine", "label": "TwinPower Turbo Maintenance" },
+      { "iconKey": "brake", "label": "Sport Brake Service" },
+      { "iconKey": "diagnostics", "label": "Electrical & Sensor Diagnostics" },
+      { "iconKey": "transmission", "label": "Drivetrain & Differential Care" },
+      { "iconKey": "shield", "label": "Preventive Service Intervals" }
+    ]
+  },
+  {
+    "slug": "classic-bmws",
+    "title": "Classic BMWs",
+    "shortModels": "(2002, E30, E36, E46)",
+    "badge": "classic",
+    "image": "/images/models/bmw-classics.jpg",
+    "heroTitle": "Classic BMW Service & Restoration",
+    "heroDescription": "Dedicated mechanical care for heritage BMWs including 2002, E30, E36, E46, E39, and E60 models.",
+    "spotlightDescription": "With 30+ years of experience starting with a 1974 BMW 2002 restoration, our shop is trusted by classic BMW enthusiasts across Sacramento, the Bay Area, Arizona, and Oregon for mechanical sorting, VANOS rebuilds, and OEM parts sourcing.",
+    "highlights": [
+      { "iconKey": "engine", "label": "1974 2002 & Classic Tuning" },
+      { "iconKey": "transmission", "label": "Manual Gearbox & Clutch Care" },
+      { "iconKey": "gauge", "label": "VANOS & Cooling Overhauls" },
+      { "iconKey": "brake", "label": "Suspension & Subframe Sorting" },
+      { "iconKey": "diagnostics", "label": "Fueling & Ignition Diagnostics" },
+      { "iconKey": "shield", "label": "OEM-Quality Restoration Parts" }
+    ]
+  }
+]

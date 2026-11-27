@@ -1,0 +1,282 @@
+[
+  {
+    "slug": "oil-change-routine-maintenance",
+    "title": "Oil Change & Routine Maintenance",
+    "shortTitle": "Oil Change & Routine Maintenance",
+    "iconKey": "oil",
+    "image": "/images/service/oil-change.jpg",
+    "secondaryImage": "/images/service/bmw-diagnostics.jpg",
+    "heroDescription": "Keep your BMW performing at its best with professional oil changes and scheduled maintenance.",
+    "intro": "Regular oil changes and routine maintenance are essential to keep your BMW running smoothly, efficiently, and reliably. At BTECH BMW SERVICE, we use BMW-approved synthetic oil and high-quality OEM filters to ensure optimal engine performance and long-term protection.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Better Engine Performance" },
+      { "iconKey": "shield", "title": "Longer Engine Life" },
+      { "iconKey": "fuel", "title": "Improved Fuel Efficiency" },
+      { "iconKey": "wrench", "title": "Prevents Costly Repairs" }
+    ],
+    "includesTitle": "Our Oil Change Service Includes",
+    "includes": [
+      "Drain and replace engine oil with BMW-approved synthetic oil",
+      "Replace the oil filter with a high-quality OEM filter",
+      "Inspect and top off essential under-hood fluids",
+      "Check for oil leaks and evaluate overall engine condition",
+      "Reset the BMW service interval and maintenance reminder",
+      "Perform a thorough multi-point vehicle inspection"
+    ],
+    "scheduleTitle": "When to Schedule an Oil Change?",
+    "scheduleDescription": "Most BMW models typically need an oil change every 5,000 – 7,500 miles (or up to 10,000 miles depending on driving conditions) or as recommended in your vehicle's service schedule. Regular maintenance helps preserve turbocharger health, fuel efficiency, and long-term engine reliability.",
+    "ctaSubtitle": "Schedule your oil change and routine maintenance with our BMW specialists today."
+  },
+  {
+    "slug": "engine-repair-overhaul",
+    "title": "Engine Repair & Overhaul",
+    "shortTitle": "Engine Repair & Overhaul",
+    "iconKey": "engine",
+    "image": "/images/service/engine-repair.jpg",
+    "secondaryImage": "/images/service/bmw-diagnostics.jpg",
+    "heroDescription": "Precision BMW engine diagnostics, timing, gasket repairs, and complete mechanical overhauls.",
+    "intro": "From valve cover and oil pan gasket leaks to timing chain services, VANOS repairs, and full engine rebuilds, BTECH BMW SERVICE brings 30+ years of dedicated BMW mechanical expertise to every engine bay.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Restored Power & Compression" },
+      { "iconKey": "shield", "title": "Leak-Free Reliability" },
+      { "iconKey": "wrench", "title": "OEM-Grade Components" },
+      { "iconKey": "check", "title": "30+ Years BMW Expertise" }
+    ],
+    "includesTitle": "Our Engine Repair Service Includes",
+    "includes": [
+      "Comprehensive mechanical inspection and compression testing",
+      "Valve cover, oil filter housing, and oil pan gasket replacement",
+      "Timing chain, tensioner, and VANOS system repair",
+      "Turbocharger, intake, and fuel injection system service",
+      "Cylinder head work and complete engine overhaul solutions",
+      "Post-repair road testing and diagnostic verification"
+    ],
+    "scheduleTitle": "Signs Your BMW Engine Needs Attention",
+    "scheduleDescription": "If you notice rough idling, misfires, burning oil odors, coolant or oil leaks, knocking noises, or a Check Engine Light, early inspection prevents minor wear from turning into major internal engine damage.",
+    "ctaSubtitle": "Trust your BMW engine to Sacramento's dedicated BMW specialists."
+  },
+  {
+    "slug": "transmission-service-repair",
+    "title": "Transmission Service & Repair",
+    "shortTitle": "Transmission Service & Repair",
+    "iconKey": "transmission",
+    "image": "/images/service/transmission-service.jpg",
+    "secondaryImage": "/images/service/general-repair.jpg",
+    "heroDescription": "Smooth shifting and dependable drivetrain performance for automatic, DCT, and manual BMW transmissions.",
+    "intro": "Your BMW's transmission is engineered for crisp, responsive power delivery. At BTECH BMW SERVICE, we perform proper fluid and pan-filter services, mechatronic sealing sleeve repairs, and clutch replacements using factory-spec fluids.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Smooth, Crisp Shifting" },
+      { "iconKey": "shield", "title": "Protects Internal Gears" },
+      { "iconKey": "wrench", "title": "Prevents Slipping & Delays" },
+      { "iconKey": "check", "title": "Factory-Spec Fluids" }
+    ],
+    "includesTitle": "Our Transmission Service Includes",
+    "includes": [
+      "Automatic transmission fluid & integrated pan/filter replacement",
+      "Mechatronic sleeve, valve body, and pan gasket leak repair",
+      "Manual transmission and differential fluid service",
+      "Clutch, flywheel, and hydraulic slave/master cylinder repair",
+      "Transmission adaptation resets and shift-quality road test",
+      "Transfer case & driveshaft flex-disc (guibo) inspection"
+    ],
+    "scheduleTitle": "When to Service Your BMW Transmission?",
+    "scheduleDescription": "Even when labeled 'lifetime fluid,' BMW automatic transmissions benefit greatly from fluid and filter service every 50,000 – 60,000 miles. Schedule an inspection immediately if you experience delayed engagement, harsh shifts, or fluid leaks.",
+    "ctaSubtitle": "Keep your BMW drivetrain shifting smoothly with expert transmission care."
+  },
+  {
+    "slug": "brake-service-replacement",
+    "title": "Brake Service & Replacement",
+    "shortTitle": "Brake Service & Replacement",
+    "iconKey": "brake",
+    "image": "/images/service/brake-service.jpg",
+    "secondaryImage": "/images/service/suspension-repair.jpg",
+    "heroDescription": "Confident stopping power with OEM-quality BMW brake pads, rotors, sensors, and fluid flushes.",
+    "intro": "BMW braking systems are designed for high-speed stability and precise pedal feel. We service standard and M-Sport brake systems using low-dust OEM or OE-equivalent pads, coated rotors, wear sensors, and DOT 4 LV brake fluid.",
+    "benefits": [
+      { "iconKey": "shield", "title": "Maximum Stopping Safety" },
+      { "iconKey": "gauge", "title": "Factory Pedal Feel" },
+      { "iconKey": "wrench", "title": "Low-Dust OEM Pads" },
+      { "iconKey": "check", "title": "Sensor & Fluid Reset" }
+    ],
+    "includesTitle": "Our Brake Service Includes",
+    "includes": [
+      "Front and rear brake pad and rotor replacement",
+      "New BMW brake pad wear sensor installation and iDrive reset",
+      "DOT 4 low-viscosity brake fluid flush and bleeding",
+      "Caliper slide pin cleaning, lubrication, and hose inspection",
+      "Parking brake adjustment and electronic actuator service",
+      "Complete road test to verify quiet, vibration-free braking"
+    ],
+    "scheduleTitle": "When to Schedule Brake Service?",
+    "scheduleDescription": "Schedule brake service whenever your BMW brake warning light illuminates, you hear squealing or grinding, feel steering wheel vibration while braking, or every 2 years for a routine brake fluid flush.",
+    "ctaSubtitle": "Ensure safe, responsive stopping power—book your BMW brake inspection today."
+  },
+  {
+    "slug": "suspension-steering-repair",
+    "title": "Suspension & Steering Repair",
+    "shortTitle": "Suspension & Steering Repair",
+    "iconKey": "suspension",
+    "image": "/images/service/suspension-repair.jpg",
+    "secondaryImage": "/images/service/brake-service.jpg",
+    "heroDescription": "Restore BMW's signature handling, ride comfort, and steering precision.",
+    "intro": "Worn control arm bushings, struts, or tie rods quickly rob a BMW of its sharp handling and cause uneven tire wear. Our technicians inspect and replace suspension and steering components to restore tight, factory-fresh road feel.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Sharp Cornering Precision" },
+      { "iconKey": "shield", "title": "Smooth Ride Comfort" },
+      { "iconKey": "wrench", "title": "Even Tire Wear" },
+      { "iconKey": "check", "title": "OEM Suspension Parts" }
+    ],
+    "includesTitle": "Our Suspension & Steering Service Includes",
+    "includes": [
+      "Thrust arm, control arm, and ball joint replacement",
+      "Struts, shock absorbers, and coil spring replacement",
+      "Inner & outer tie rod ends and steering rack inspection",
+      "Sway bar end links, bushings, and subframe mount checks",
+      "Wheel bearing and hub assembly replacement",
+      "Power steering pump, reservoir, and hydraulic hose repair"
+    ],
+    "scheduleTitle": "Signs of Suspension or Steering Wear",
+    "scheduleDescription": "Clunking over bumps, steering wheel vibration at highway speeds, wandering on the road, nose-diving under braking, or uneven tire tread wear are key indicators that your BMW suspension needs inspection.",
+    "ctaSubtitle": "Bring back the Ultimate Driving Machine feel with expert suspension repair."
+  },
+  {
+    "slug": "bmw-diagnostics",
+    "title": "BMW Diagnostics",
+    "shortTitle": "BMW Diagnostics",
+    "iconKey": "diagnostics",
+    "image": "/images/service/bmw-diagnostics.jpg",
+    "secondaryImage": "/images/service/electrical-repair.jpg",
+    "heroDescription": "Factory-level fault code analysis, live module testing, and accurate root-cause troubleshooting.",
+    "intro": "Modern BMWs rely on dozens of interconnected control modules. Generic code readers only scratch the surface—at BTECH BMW SERVICE, we use advanced BMW diagnostic equipment combined with decades of hands-on experience to pinpoint the exact issue the first time.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Pinpoint Accuracy" },
+      { "iconKey": "shield", "title": "No Guesswork Repairs" },
+      { "iconKey": "wrench", "title": "Factory-Level Tooling" },
+      { "iconKey": "check", "title": "Pre-Purchase Inspections" }
+    ],
+    "includesTitle": "Our BMW Diagnostics Service Includes",
+    "includes": [
+      "Full-vehicle fault code scan across all BMW control modules",
+      "Check Engine Light, ABS, DSC, and Airbag (SRS) troubleshooting",
+      "Live sensor data logging, smoke leak, and fuel pressure testing",
+      "Battery registration and charging system diagnostics",
+      "Pre-purchase BMW inspections for classic and modern models",
+      "Clear, honest repair recommendations with upfront estimates"
+    ],
+    "scheduleTitle": "When Should You Book BMW Diagnostics?",
+    "scheduleDescription": "Any time a warning light appears on your dash, your BMW enters limp mode, or you experience intermittent drivability or electrical glitches—or before buying a pre-owned BMW.",
+    "ctaSubtitle": "Get fast, accurate answers for any warning light or drivability concern."
+  },
+  {
+    "slug": "cooling-system-service",
+    "title": "Cooling System Service",
+    "shortTitle": "Cooling System Service",
+    "iconKey": "cooling",
+    "image": "/images/service/cooling-system.jpg",
+    "secondaryImage": "/images/service/engine-repair.jpg",
+    "heroDescription": "Prevent overheating and protect your BMW engine with proactive cooling system care.",
+    "intro": "BMW cooling systems operate under high heat and pressure, making radiators, expansion tanks, water pumps, and plastic coolant flanges critical maintenance items. We keep your cooling system sealed, pressurized, and running at ideal operating temperature.",
+    "benefits": [
+      { "iconKey": "shield", "title": "Prevents Overheating" },
+      { "iconKey": "gauge", "title": "Stable Engine Temps" },
+      { "iconKey": "wrench", "title": "BMW-Approved Coolant" },
+      { "iconKey": "check", "title": "Complete Pressure Testing" }
+    ],
+    "includesTitle": "Our Cooling System Service Includes",
+    "includes": [
+      "Cooling system pressure test and leak detection",
+      "Electric & mechanical water pump and thermostat replacement",
+      "Radiator, expansion tank, and coolant hose replacement",
+      "Coolant flush and vacuum-fill with BMW-approved coolant",
+      "Oil cooler and transmission cooler line inspection",
+      "Radiator fan and temperature sensor testing"
+    ],
+    "scheduleTitle": "When to Service Your BMW Cooling System?",
+    "scheduleDescription": "We recommend proactive cooling system inspection every 50,000 – 60,000 miles, or immediately if you see low coolant warnings, sweet coolant smells, white steam, or rising temperature gauges.",
+    "ctaSubtitle": "Protect your engine from costly overheating—schedule cooling system service today."
+  },
+  {
+    "slug": "electrical-system-repair",
+    "title": "Electrical System Repair",
+    "shortTitle": "Electrical System Repair",
+    "iconKey": "electrical",
+    "image": "/images/service/electrical-repair.jpg",
+    "secondaryImage": "/images/service/bmw-diagnostics.jpg",
+    "heroDescription": "Dependable troubleshooting for BMW batteries, alternators, starters, wiring, and electronics.",
+    "intro": "From parasitic battery drains and failing alternators to window regulators, lighting modules, and starter motors, our specialists diagnose and repair BMW electrical issues cleanly and reliably without guesswork.",
+    "benefits": [
+      { "iconKey": "gauge", "title": "Reliable Starting Power" },
+      { "iconKey": "shield", "title": "Protects Control Modules" },
+      { "iconKey": "wrench", "title": "Battery Registration" },
+      { "iconKey": "check", "title": "Clean Wiring Repairs" }
+    ],
+    "includesTitle": "Our Electrical Repair Service Includes",
+    "includes": [
+      "Battery load testing, replacement, and BMW coding/registration",
+      "Alternator, voltage regulator, and starter motor replacement",
+      "Parasitic draw testing to solve overnight battery drain",
+      "Headlight, taillight, sensor, and relay diagnostics",
+      "Power window regulator, door lock, and blower motor repair",
+      "Fuse box, ground strap, and wiring harness repair"
+    ],
+    "scheduleTitle": "Signs of BMW Electrical Issues",
+    "scheduleDescription": "Slow engine cranking, flickering lights, 'Increased Battery Discharge' warnings, malfunctioning accessories, or repeated dead batteries are signs your charging or electrical system needs testing.",
+    "ctaSubtitle": "Solve frustrating electrical issues accurately with our BMW technicians."
+  },
+  {
+    "slug": "exhaust-system-service",
+    "title": "Exhaust System Service",
+    "shortTitle": "Exhaust System Service",
+    "iconKey": "exhaust",
+    "image": "/images/service/exhaust-service.jpg",
+    "secondaryImage": "/images/service/engine-repair.jpg",
+    "heroDescription": "Clean emissions, quiet refinement, and optimal exhaust flow for your BMW.",
+    "intro": "A healthy exhaust system is essential for engine backpressure, emissions compliance, fuel efficiency, and cabin safety. As a California BAR certified shop, we service exhaust leaks, oxygen sensors, catalytic converters, and mounting hardware.",
+    "benefits": [
+      { "iconKey": "shield", "title": "California Emissions Ready" },
+      { "iconKey": "gauge", "title": "Optimal Exhaust Flow" },
+      { "iconKey": "fuel", "title": "Proper Air-Fuel Trim" },
+      { "iconKey": "check", "title": "BAR Certified Shop" }
+    ],
+    "includesTitle": "Our Exhaust System Service Includes",
+    "includes": [
+      "Exhaust manifold, gasket, and flex-pipe leak repair",
+      "Oxygen (O2) sensor and exhaust temperature sensor replacement",
+      "Catalytic converter and muffler inspection & replacement",
+      "Exhaust hanger, clamp, and heat shield repair",
+      "Backpressure and emissions readiness verification",
+      "Post-repair leak check for quiet, odor-free operation"
+    ],
+    "scheduleTitle": "When to Inspect Your BMW Exhaust?",
+    "scheduleDescription": "Book an exhaust check if you hear rattling or louder-than-normal exhaust noise, smell exhaust fumes near the cabin, notice reduced fuel economy, or have an emissions-related Check Engine Light.",
+    "ctaSubtitle": "Keep your BMW clean, quiet, and compliant—schedule your exhaust inspection."
+  },
+  {
+    "slug": "general-repair-maintenance",
+    "title": "General Repair & Maintenance",
+    "shortTitle": "General Repair & Maintenance",
+    "iconKey": "general",
+    "image": "/images/service/general-repair.jpg",
+    "secondaryImage": "/images/service/oil-change.jpg",
+    "heroDescription": "Complete bumper-to-bumper BMW care for classic icons and modern daily drivers.",
+    "intro": "Whether you drive a classic 1974 BMW 2002, an E30/E36/E46 enthusiast coupe, or a modern BMW sedan or X-Series SUV, BTECH BMW SERVICE provides thorough scheduled maintenance, inspections, and general mechanical repairs tailored to your vehicle.",
+    "benefits": [
+      { "iconKey": "shield", "title": "Factory Service Intervals" },
+      { "iconKey": "gauge", "title": "Classic & Modern BMWs" },
+      { "iconKey": "wrench", "title": "Honest Recommendations" },
+      { "iconKey": "check", "title": "Sacramento Specialists" }
+    ],
+    "includesTitle": "Our General Maintenance Service Includes",
+    "includes": [
+      "BMW Inspection I & Inspection II / Condition-Based Service",
+      "Serpentine drive belts, pulleys, and tensioner replacement",
+      "Spark plugs, ignition coils, and air/cabin filter service",
+      "Differential, transfer case, and power steering fluid service",
+      "Wipers, hoses, mounts, and undercarriage safety checks",
+      "Classic BMW restoration maintenance and mechanical sorting"
+    ],
+    "scheduleTitle": "Keeping Up With Scheduled Maintenance",
+    "scheduleDescription": "Following mileage- and time-based BMW maintenance intervals—and addressing small wear items early—is the single best way to preserve performance, safety, and resale value.",
+    "ctaSubtitle": "Need routine maintenance or a second opinion? Schedule your visit today."
+  }
+]

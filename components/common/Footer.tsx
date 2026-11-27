@@ -19,26 +19,26 @@ import {
 } from "lucide-react";
 
 const footerServices = [
-  "Oil Change & Routine Maintenance",
-  "Engine Repair & Overhaul",
-  "Transmission Service & Repair",
-  "Brake Service & Replacement",
-  "Suspension & Steering Repair",
-  "BMW Diagnostics",
-  "Cooling System Service",
-  "Electrical System Repair",
-  "Exhaust System Service",
-  "General Repair & Maintenance",
+  { label: "Oil Change & Routine Maintenance", slug: "oil-change-routine-maintenance" },
+  { label: "Engine Repair & Overhaul", slug: "engine-repair-overhaul" },
+  { label: "Transmission Service & Repair", slug: "transmission-service-repair" },
+  { label: "Brake Service & Replacement", slug: "brake-service-replacement" },
+  { label: "Suspension & Steering Repair", slug: "suspension-steering-repair" },
+  { label: "BMW Diagnostics", slug: "bmw-diagnostics" },
+  { label: "Cooling System Service", slug: "cooling-system-service" },
+  { label: "Electrical System Repair", slug: "electrical-system-repair" },
+  { label: "Exhaust System Service", slug: "exhaust-system-service" },
+  { label: "General Repair & Maintenance", slug: "general-repair-maintenance" },
 ];
 
 const quickLinks = [
-  { label: "Home", hasDropdown: false },
-  { label: "About Us", hasDropdown: false },
-  { label: "Services", hasDropdown: true },
-  { label: "BMW Models", hasDropdown: false },
-  { label: "Service Area", hasDropdown: false },
-  { label: "Gallery", hasDropdown: false },
-  { label: "Contact Us", hasDropdown: false },
+  { label: "Home", href: "/", hasDropdown: false },
+  { label: "About Us", href: "/about-us", hasDropdown: false },
+  { label: "Services", href: "/services/oil-change-routine-maintenance", hasDropdown: true },
+  { label: "BMW Models", href: "/models/bmw-m-series", hasDropdown: false },
+  { label: "Service Area", href: "/service-area", hasDropdown: false },
+  { label: "Gallery", href: "/gallery", hasDropdown: false },
+  { label: "Contact Us", href: "/contact-us", hasDropdown: false },
 ];
 
 export default function Footer() {
@@ -64,14 +64,14 @@ export default function Footer() {
           </div>
 
           <div className="relative z-10 flex flex-wrap items-center justify-center gap-3 shrink-0">
-            <a
-              href="#schedule"
+            <Link
+              href="/book-appointment"
               className="group inline-flex items-center gap-2 px-5 sm:px-6 py-2.5 sm:py-3 rounded-xl bg-white text-[#0d2240] hover:bg-sky-50 font-black italic text-xs sm:text-sm shadow-lg hover:scale-[1.03] active:scale-95 transition-all"
             >
               <Calendar className="w-4 h-4 text-[#e30613]" />
               <span>Book an Appointment</span>
               <ArrowRight className="w-4 h-4 text-[#e30613] group-hover:translate-x-1 transition-transform" />
-            </a>
+            </Link>
 
             <a
               href="tel:9169558735"
@@ -148,13 +148,13 @@ export default function Footer() {
 
               <ul className="mt-4 space-y-2.5">
                 {footerServices.map((service) => (
-                  <li key={service}>
+                  <li key={service.slug}>
                     <Link
-                      href="#"
+                      href={`/services/${service.slug}`}
                       className="group flex items-center gap-2.5 text-xs sm:text-[13px] font-semibold text-white/95 hover:text-[#00c8ff] transition-colors drop-shadow-sm"
                     >
                       <CheckSquare className="w-4 h-4 text-[#00c8ff] shrink-0 group-hover:scale-110 transition-transform" />
-                      <span className="truncate">{service}</span>
+                      <span className="truncate">{service.label}</span>
                     </Link>
                   </li>
                 ))}
@@ -174,7 +174,7 @@ export default function Footer() {
                 {quickLinks.map((item) => (
                   <li key={item.label}>
                     <Link
-                      href="#"
+                      href={item.href}
                       className="group flex items-center justify-between py-2.5 text-xs sm:text-[13.5px] font-semibold text-white/95 hover:text-[#00c8ff] transition-colors drop-shadow-sm"
                     >
                       <span>{item.label}</span>

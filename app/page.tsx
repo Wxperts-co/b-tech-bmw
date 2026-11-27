@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Header from "@/components/common/Header";
 import HeroSection from "@/components/home/HeroSection";
 import AboutSection from "@/components/home/AboutSection";
@@ -6,6 +7,15 @@ import WhyChooseSection from "@/components/home/WhyChooseSection";
 import BmwModelsSection from "@/components/home/BmwModelsSection";
 import GallerySection from "@/components/home/GallerySection";
 import Footer from "@/components/common/Footer";
+
+export const metadata: Metadata = {
+  title: "Btech BMW Service & Repair | Sacramento BMW Specialists",
+  description:
+    "Sacramento's trusted independent BMW service & repair shop. 30+ years of BMW expertise, California BAR certified, serving Sacramento, the Bay Area, Arizona & Oregon.",
+  alternates: {
+    canonical: "/",
+  },
+};
 
 export default function Home() {
   return (

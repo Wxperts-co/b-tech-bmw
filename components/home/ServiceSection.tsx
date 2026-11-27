@@ -2,10 +2,12 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 
 interface ServiceCardItem {
   id: string;
+  slug: string;
   line1: string;
   line2: string;
   image: string;
@@ -15,6 +17,7 @@ interface ServiceCardItem {
 const serviceCards: ServiceCardItem[] = [
   {
     id: "oil",
+    slug: "oil-change-routine-maintenance",
     line1: "Oil Change &",
     line2: "Routine Maintenance",
     image: "/images/service/oil-change.jpg",
@@ -27,6 +30,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "engine",
+    slug: "engine-repair-overhaul",
     line1: "Engine Repair",
     line2: "& Overhaul",
     image: "/images/service/engine-repair.jpg",
@@ -41,6 +45,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "transmission",
+    slug: "transmission-service-repair",
     line1: "Transmission",
     line2: "Service & Repair",
     image: "/images/service/transmission-service.jpg",
@@ -53,6 +58,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "brake",
+    slug: "brake-service-replacement",
     line1: "Brake Service",
     line2: "& Replacement",
     image: "/images/service/brake-service.jpg",
@@ -66,6 +72,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "suspension",
+    slug: "suspension-steering-repair",
     line1: "Suspension &",
     line2: "Steering Repair",
     image: "/images/service/suspension-repair.jpg",
@@ -79,6 +86,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "diagnostics",
+    slug: "bmw-diagnostics",
     line1: "BMW",
     line2: "Diagnostics",
     image: "/images/service/bmw-diagnostics.jpg",
@@ -92,6 +100,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "cooling",
+    slug: "cooling-system-service",
     line1: "Cooling System",
     line2: "Service",
     image: "/images/service/cooling-system.jpg",
@@ -105,6 +114,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "electrical",
+    slug: "electrical-system-repair",
     line1: "Electrical",
     line2: "System Repair",
     image: "/images/service/electrical-repair.jpg",
@@ -116,6 +126,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "exhaust",
+    slug: "exhaust-system-service",
     line1: "Exhaust",
     line2: "System Service",
     image: "/images/service/exhaust-service.jpg",
@@ -128,6 +139,7 @@ const serviceCards: ServiceCardItem[] = [
   },
   {
     id: "general",
+    slug: "general-repair-maintenance",
     line1: "General Repair",
     line2: "& Maintenance",
     image: "/images/service/general-repair.jpg",
@@ -216,9 +228,10 @@ export default function ServiceSection() {
         {/* 10 Luxury Dark-Chrome & BMW M-Color Cards (2 Rows of 5 on Desktop) */}
         <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-5 xl:gap-6">
           {serviceCards.map((card, index) => (
-            <div
+            <Link
               key={card.id}
-              className="group relative transition-all duration-300 hover:-translate-y-1.5 drop-shadow-[0_12px_28px_rgba(0,0,0,0.85)] hover:drop-shadow-[0_14px_34px_rgba(0,136,206,0.55)] cursor-pointer"
+              href={`/services/${card.slug}`}
+              className="group relative block transition-all duration-300 hover:-translate-y-1.5 drop-shadow-[0_12px_28px_rgba(0,0,0,0.85)] hover:drop-shadow-[0_14px_34px_rgba(0,136,206,0.55)] cursor-pointer"
             >
               {/* Metallic Chrome & M-Blue Chamfered Outer Rim */}
               <div
@@ -287,7 +300,7 @@ export default function ServiceSection() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
